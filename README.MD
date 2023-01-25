@@ -1,0 +1,1 @@
+Computer graphics project using Python and OpenGL
