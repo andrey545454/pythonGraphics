@@ -14,6 +14,7 @@ class MainWindow(QMainWindow):
     def init_ui(self):
         """Set up the application's GUI."""
         self.setMinimumSize(800, 600)
+        self.setWindowIcon(QIcon('images/logo.png'))
         self.setWindowTitle('PyGraphics')
 
         self.set_up_main_window()
